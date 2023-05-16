@@ -1,4 +1,4 @@
-package org.rygn.first_graphql;
+package org.rygn.first_graphql.model;
 
 public class Team {
 	
