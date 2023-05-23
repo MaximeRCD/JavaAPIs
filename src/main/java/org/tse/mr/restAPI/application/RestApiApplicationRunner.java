@@ -1,3 +1,6 @@
+/**
+ * This class represents an application runner for the REST API application.
+ */
 package org.tse.mr.restAPI.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +19,12 @@ public class RestApiApplicationRunner implements ApplicationRunner {
     @Autowired
     private FootballPlayerRepository footballPlayerRepository;
 
+    /**
+     * Runs the application with the provided arguments.
+     *
+     * @param args the application arguments
+     * @throws Exception if an error occurs during execution
+     */
     @Override
     public void run(ApplicationArguments args) throws Exception {
 

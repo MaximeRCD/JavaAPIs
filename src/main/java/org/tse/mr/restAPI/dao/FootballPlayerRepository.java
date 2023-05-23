@@ -1,3 +1,6 @@
+/**
+ * This interface represents a repository for FootballPlayer entities.
+ */
 package org.tse.mr.restAPI.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
